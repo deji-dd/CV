@@ -12,12 +12,12 @@ body{
   display: inline-block;
 }
 .top-side-container{
-  display: inline-block;
-  width: 545px;
-  height: 400px;
-  position: relative;
-  left: 665px;
-  bottom: 310px;
+    display: inline-block;
+    width: 85%;
+    height: 60%;
+    position: relative;
+    left: 100%;
+    bottom: 45%;
 }
 h1.top{
   color: #fff;
