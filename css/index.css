@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Biotif;
+  src: url(fonts/Fontspring-DEMO-biotif-light.otf);
+}
+@font-face{
+  font-family: Bogart Extralight;
+  src: url(fonts/Bogart-Extralight-trial.ttf);
+}
+body{
+  text-align:left;
+  background-color: black;
+  margin: 0;
+}
+.top-div{
+  background-color: transparent;
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 100%;
+}
+.top-img{
+  position: absolute;
+  border-radius: 30px;
+  right: 64px;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+}
+.top-h1{
+  background-image: linear-gradient(to right,#a0e9ff,#a162e8,#f093b0,#edca85);
+  font-size: 4.5em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 230px auto 0;
+  font-family: Bogart Extralight, Helvetica Neue, Helvetica, Arial, serif;
+}
+.top-h4{
+  background-image: linear-gradient(to right,#a0e9ff,#a162e8,#f093b0,#edca85);
+  font-size: 1.7em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 auto;
+  font-family: Bogart Extralight, serif;
+}
+.top-p{
+  color: white;
+  margin: 20px auto auto 0;
+  font-family: Biotif, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.7;
+}
