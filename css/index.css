@@ -105,14 +105,14 @@ div {
 
 .home-h1 {
   background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
-  font-size: 4.5em;
+  font-size: 6.0vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 130px auto 0;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: 3px;
   max-width: 100%;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -126,14 +126,14 @@ div {
 
 .home-h4 {
   background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
-  font-size: 1.7em;
+  font-size: 2.0vw;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: 2px;
   max-width: 100%;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -147,7 +147,7 @@ div {
   color: white;
   margin: 20px auto auto 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5vw;
   line-height: 1.7;
   max-width: 100%;
   text-align: justify;
@@ -191,10 +191,10 @@ div {
 }
 
 .about-me-h2 {
-  max-width: 21%;
+  max-width: 100%;
   margin: 0 auto;
   font-family: 'The Nautigal', cursive;
-  font-size: 3.5em;
+  font-size: 5.5vw;
   background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -217,9 +217,9 @@ div {
 .about-me-p {
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 2.0vw;
   line-height: 1.6;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto 30px;
 }
 
