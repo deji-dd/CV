@@ -243,6 +243,7 @@ div {
   margin: 5px auto;
   color: grey;
   letter-spacing: 0.5px;
+  font-size: 1vw;
 }
 
 @media (max-width: 1000px) {
