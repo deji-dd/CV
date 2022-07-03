@@ -19,12 +19,6 @@ hr {
   margin: 100px auto;
 }
 
-@media (max-width: 1000px) {
-  hr {
-    max-width: 65%;
-  }
-}
-
 hr:after {
   content: "§";
   display: inline-block;
@@ -33,6 +27,12 @@ hr:after {
   font-size: 1.5em;
   padding: 0 0.25em;
   background: black;
+}
+
+@media (max-width: 1000px) {
+  hr {
+    max-width: 65%;
+  }
 }
 
 div {
@@ -62,10 +62,25 @@ a:active {
   top: 0;
   margin: 0 auto;
   width: 100%;
+  height: 10%;
   max-width: 100%;
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
   z-index: 2;
+  display: flex;
+}
+
+.header-a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: auto;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 1000px) {
+  .header-a {
+    font-size: 5vw;
+  }
 }
 
 #home {
