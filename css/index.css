@@ -1,51 +1,163 @@
-@font-face {
-  font-family: Biotif;
-  src: url(fonts/Fontspring-DEMO-biotif-light.otf);
-}
-@font-face{
-  font-family: Bogart Extralight;
-  src: url(fonts/Bogart-Extralight-trial.ttf);
-}
-body{
-  text-align:left;
+body {
   background-color: black;
   margin: 0;
+  font-family: Biotif, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.top-div{
-  background-color: transparent;
+
+p, h1, h2, h3, h4 {
+  color: white;
+}
+
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double white;
+  color: white;
+  text-align: center;
+  max-width: 50%;
+  margin: 100px auto;
+}
+
+hr:after {
+  content: "§";
+  display: inline-block;
   position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: black;
+}
+
+div {
   max-width: 90%;
   margin: 0 auto;
-  min-height: 100%;
+  align-content: center;
 }
-.top-img{
-  position: absolute;
+
+.header-div {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  z-index: 2;
+}
+
+#home {
+  display: flex;
+  max-width: 90%;
+  margin: 100px auto 200px auto;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.home-div {
+  background-color: transparent;
+  position: relative;
+  min-height: 100%;
+  vertical-align: middle;
+}
+
+.home-img {
   border-radius: 30px;
-  right: 64px;
-  top: 100px;
   width: 500px;
   height: 500px;
 }
-.top-h1{
-  background-image: linear-gradient(to right,#a0e9ff,#a162e8,#f093b0,#edca85);
+
+.home-h1 {
+  background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
   font-size: 4.5em;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 230px auto 0;
-  font-family: Bogart Extralight, Helvetica Neue, Helvetica, Arial, serif;
+  margin: 130px auto 0;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 3px;
+  width: 485px;
+  text-align: justify;
 }
-.top-h4{
-  background-image: linear-gradient(to right,#a0e9ff,#a162e8,#f093b0,#edca85);
+
+.home-h4 {
+  background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
   font-size: 1.7em;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 0 auto;
-  font-family: Bogart Extralight, serif;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 2px;
+  width: 485px;
+  text-align: justify;
 }
-.top-p{
+
+.home-p {
   color: white;
   margin: 20px auto auto 0;
-  font-family: Biotif, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   line-height: 1.7;
+  width: 485px;
+  text-align: justify;
+}
+
+#about-me {
+  background-color: #191919 !important;
+  border-radius: 30px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.about-me-img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 410px;
+  margin-top: 10px;
+}
+
+.about-me-h2 {
+  position: relative;
+  bottom: 40px;
+  left: 415px;
+  width: 30%;
+  margin: 0;
+  font-family: 'The Nautigal', cursive;
+  font-size: 3.5em;
+  background-image: linear-gradient(to right, #a0e9ff, #a162e8, #f093b0, #edca85);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: rotate(351deg);
+}
+
+.about-me-inner-div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.about-me-p {
+  position: relative;
+  left: 215px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 1.6;
+  width: 500px;
+  margin-top: 0;
+}
+
+.footer-div {
+  position: static;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%
+}
+
+.footer-p {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin: 5px auto;
+  color: grey;
+  letter-spacing: 0.5px;
 }
